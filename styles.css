@@ -1,0 +1,261 @@
+/* Reset styles */
+
+body, h1, p, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background and text color */
+body{
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;    
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    /* padding: 20px; */
+    text-align: left;
+    color: white;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Reset some default styles */
+body, h1, p, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox utility class */
+.flex {
+    display: flex;
+}
+
+/* Greeting section styles */
+.greeting {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Split layout styles */
+.split {
+    flex: 1;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    flex: 6; /* 60% width */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #333;
+}
+
+.right {
+    background-color: #fff;
+    display: flex;
+    flex: 4; /* 40% width */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Highlights section styles */
+.highlights {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.highlights h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Icon blocks styles */
+.icon-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.icon-block {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon-block img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.icon-block p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Header content styles */
+.header-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-content span {
+    color: #ffcc00;
+}
+
+.header-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons a:hover {
+    background-color: #ff9900;
+}
+
+/* Landscape image styles */
+.land-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-content{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.about-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+
+/* Registration form styles */
+.registration-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form field styles */
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, input[type="number"], input[type="tel"], input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff5a50;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Navigation bar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 30px;
+}
+
+.navbar-left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-left a {
+    color: #ffcc00;
+}
+
+.navbar-right {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-right li {
+    margin-left: 20px;
+}
+
+.navbar-right a {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-right a:hover {
+    color: #ff9900;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bangkok Food</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="index.html">BK FOOD</a>
+            </div>
+            <ul class="navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="registration-form">
+        <h2>Register Your Booth</h2>
+        <form action="submit_registration.php" method="post">
+            <label for="companyName">Company Name:</label>
+            <input type="text" id="companyName" name="companyName" required>
+            
+            <label for="boothSize">Booth Size:</label>
+            <select id="boothSize" name="boothSize" required>
+                <option value="10x10">10x10 ft</option>
+                <option value="10x15">10x15 ft</option>
+            </select>
+            
+            <label class="checkbox-label">
+                <input type="checkbox" id="useTable" name="useTable">
+                <span>Use Table in Booth</span>
+            </label>
+            
+            <label for="chairs">Number of Chairs:</label>
+            <input type="number" id="chairs" name="chairs" min="0">
+            
+            <label for="contactPerson">Contact Person:</label>
+            <input type="text" id="contactPerson" name="contactPerson" required>
+            
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" required>
+            
+            <button type="submit" class="button">Submit Registration</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Bangkok Food Event. All rights reserved.</p>
+    </footer>
+</body>
+</html>
